@@ -1,0 +1,245 @@
+* {
+	margin:0;
+	padding:0;
+}
+body { background: #FBE9F7; }
+a { color: #725559; }
+a:hover, a:visited, .menu li a:hover { color: #EB6772; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#28425e; }
+#page { 
+	background: #ffffff;
+	/*border-top: 12px solid #EB6772;
+	border-bottom: 12px solid #EB6772;*/
+}
+#branding {
+	background: #725559;
+	border-bottom-color: #EB6772;
+}
+#branding h1, #branding h1 a { color: #ffffff; }
+#branding h2 { color:#ffffff; }
+.widget-heading, .dsq-widget-title {
+	/*background: #492872;*/
+	background: #725559;
+	color: #ffffff;
+}
+.menu li a { color: #725559; }
+.post { border-bottom-color: #725559; }
+/*.entry-meta a { color:#637893; }*/
+.post footer { border-top-color: #ebeef1; }
+.required { color: #cc0033; }
+	
+
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: arial, helvetica, sans-serif;
+	font-weight:normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration:none;
+}
+p {
+	margin:1em 0;
+}
+
+ul, ol {
+	padding-left:2em;
+}
+
+dl dd {
+	padding-left:2em;
+	padding-bottom:1ex;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text,
+.assistive-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+nav {
+	display:block;
+	height: 2em;
+}
+.nav-previous {
+	float:left;
+}
+.nav-next {
+	float:right;
+}
+
+/* Header! */
+
+#page {
+	margin: 0 30px;
+}
+
+#sidebar {
+	width: 340px;
+	display: table-cell;
+}
+
+#branding {
+	margin-bottom: 5px;
+	border-bottom-width: 12px;
+	border-bottom-style: solid;
+}
+#branding h1 {
+	font-size: 1.7em;
+	padding: 30px 20px 0;
+}
+#branding h2 {
+	font-weight:normal;
+	padding: 5px 20px 30px;
+	font-style: italic;
+	font-size: 1em;
+}
+#branding img {
+	vertical-align: bottom;
+}
+
+
+/*Sidebar Widgets*/
+
+#widgets {
+	width: 100%;
+}
+#widgets-left-column {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#widgets-right-column {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#widgets-left-column .widget {
+	margin-right:10px;
+}
+#widgets-right-column .widget {
+	margin-left:10px;
+}
+
+#widgets .widget {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.widget-heading, .dsq-widget-title {
+	font-size: 1.2em;
+	padding: 2px 5px;
+	margin-bottom: .2em;
+}
+li.dsq-widget-item {
+	margin: 5px 3px !important
+}
+.menu ul {
+	padding: 0;
+	list-style: none;
+}
+.menu li a {
+	text-decoration:none;
+	margin-left: 10px;
+}
+
+.menu-icon {
+	margin: 1px 3px 0px 0px;
+}
+
+#main {
+	padding: 0 20px;
+	display: table-cell;
+}
+
+/* Entry! */
+
+.post {
+	margin-top: 2em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	display: block;
+}
+
+.entry-meta {
+	font-size:0.9em;
+	margin-bottom: 2em;
+}
+.entry-header .entry-meta {
+	text-indent:2em;
+}
+.entry-meta a {
+	text-decoration:none;
+}
+
+.entry-content {
+	margin:0.8em 0;
+}
+.entry-content li {
+	margin-bottom:0.5ex;
+}
+
+.post footer {
+	border-top-width:1px;
+	border-top-style: solid;
+	padding-top:2px;
+}
+.post footer .entry-comments {
+	display:block;
+}
+
+/* Disqus Theming */
+.dsq-widget-list {
+	padding: 0;
+}
+/*.dsq-widget-meta {
+	overflow: hidden; !importan
+}
+li.dsq-widget-item { margin: 6px 2px; !important}
+#dsq-reply, .dsq-reply, .clearfix, .dsq-clearfix, .dsq-clearfix::after {
+	clear:none !important;
+}
+#comments {
+	float: left;
+}
+/*#disqus-thread {
+	float: left;
+}*/
+*/
+/* Images */
+a img {
+	border: none;
+}
+p img {
+	margin-bottom: 0.5em; /* a small bottom margin prevents content floating under images */
+}
+/*
+Resize images to fit the main content area.
+- Applies only to images uploaded via WordPress by targeting size-* classes.
+- Other images will be left alone. Use "size-auto" class to apply to other images.
+*/
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img,
+.widget-area img {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+img.alignleft {
+	margin-right: 1em;
+}
+img.alignright {
+	margin-left: 1em;
+}

@@ -1,0 +1,25 @@
+---
+layout: post
+title: Thanks, Mr. Butcher.
+date: 2011-07-18 11:48:22.000000000 -05:00
+tags:
+- blog
+- writing
+---
+I've always considered myself a writer, first and foremost. Any time I'm filling out an "About Me" section on anything, "writer" is the first word that comes to mind. I've been having a minor existential crisis for some time now, because despite that strong self-identification, I haven't actually **written** anything in years.
+
+I could come up with a mile-long list of excuses for why I didn't write, but really, the reasons all boil down to: (imagine the whine of a petulant 12-year-old here) **it was hard. **Hard to come up with plots, hard to finish things, hard to find the time to do it...all of this, of course, is no excuse at all, but I pretended it was. For most of my life, writing had been one of the easiest things in the world for me to do, and suddenly it wasn't anymore. Not so much due to any change in my abilities, but to a change in my standards. I wasn't satisfied with writing crap anymore, so I just didn't write.
+
+A while back I finally decided to make writing a major part of my life again. This blog is part of that--a little self-indulgent journaling works pretty well as brain grease. I was a little stuck on the next step, though; after so long without putting pen to paper, I had forgotten how to world-build and how to craft characters, and to be honest, I'm not sure I **ever** knew how to craft a plot. I used to write a lot of short stories and introspective character wanking, but any time I tried to work on a longer piece, I'd get about 5,000 words in and say, "Now what?" My greatest writing achievement had been doing 40,000 words on the same plot, and that had ground to a sudden halt when I suddenly realized that I had no idea whatsoever what was supposed to happen next. I wasn't even sure how the story was supposed to end; I had kind of figured I'd work it out as I went.
+
+Enter <a href="http://www.jim-butcher.com/">Jim Butcher</a>. I've enjoyed a lot of his works, and while he's not my favorite author--just about everything of his I've read has annoyed me at some point--he certainly knows how to craft a story. Despite their flaws, his books have kept me up until 3am on multiple occasions, dying to learn how it all turns out in the end. From 2004 to 2008 Jim Butcher wrote a series of articles on how to write a novel, which he posted <a href="http://jimbutcher.livejournal.com/">here</a> on his LiveJournal, of all places. I skimmed them a couple of years ago, thought they were neat, and promptly forgot about them--come on, like I had time to write?
+
+Then a few months ago, I decided I was finally going to do it--I was going to pick one of the half-baked story ideas I had floating around in my head, and fully bake it. My husband reminded me of the Jim Butcher articles, and I went back and read them thoroughly.  And wow, did they ever open my eyes.
+
+The 20-second summary of Jim Butcher's method is this: your story is a series of scenes (in which a question is presented, then answered) and sequels (in which the characters react to what just happened and choose what to do next). A scene question could be as simple as "Will the hero make a sandwich?" The key to the method, is that the answer to that question can never be yes. It must be either "yes, but...", "no", or "no, and furthermore...."
+
+If the question is "Will the hero make a sandwich?", then the answer might be "Yes, but in the process he drops his plate on the floor, shattering it. It turns out that was his last plate." Then in the sequel he reacts (Argh! Damn it, I'm so clumsy!) and chooses what to do next (Better go to the store and buy some more plates.) This leads effortlessly into the next scene (Buying plates at the store.)
+
+I realized, reading that, that just about every time I'd ever gotten stuck while writing, it was because the answers to too many of my scene questions were yes. Yes, the heroes escape from jail and throw off their pursuers...now what? Yes, the hero's mentor agrees to help with his tricky problem...now what? So I pulled out some index cards and started outlining the scraps of plot I'd already put together, using the format Jim Butcher describes. Amazingly, the process was even simpler than I thought it would be. The method really works--breaking down each scene and sequel into the components described helped me see what needed to happen next, and fill in plot holes by solving the problems one little piece at a time. I was reminded of a really good game of Tetris; all the blocks slotting into place, and no square pieces in sight.
+
+I've begun transcribing my plot notecards into a handy electronic format, and jotting down bits of dialogue as they occur to me. Yesterday I took off running and wrote over 1,000 words. By the end of it, my brain hurt, but I felt amazing. For the first time, I feel like I'm actually going to write a novel--there aren't any more obstacles in my way, so the only question now is how long it'll take.

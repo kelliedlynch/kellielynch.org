@@ -1,0 +1,13 @@
+---
+layout: post
+title: Label ver. 1
+date: 2009-10-22 01:09:15.000000000 -05:00
+tags:
+- blog
+- etsy
+---
+I managed to whip up something I'm fairly happy with here. I wanted a label template that I could use for all the yarn I sell, with space for all the important details about the yarn, and the URL of my Etsy store and blog.
+
+I'm not 100% sure about the name, but "Kellie's Unhealthy Obsession With Yarn" just doesn't have the same ring to it.
+
+<img src="/uploads/2009/12/greenlabel.jpg" />

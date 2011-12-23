@@ -1,0 +1,24 @@
+---
+layout: post
+title: Paused
+date: 2011-06-03 11:02:00.000000000 -05:00
+tags:
+- blog
+- gardening
+- geekery
+---
+I did something to my wrist a couple days ago while doing yard work, so I've spent the last couple of days indoors, trying not to hurl anything heavy around. I don't know how I injured myself, but you'd think with the amount of pain I'm in right now, I'd remember how it started.
+
+It's hard to find things to occupy yourself indoors when you've got a dozen outdoor projects in progress. I spent a day mainly watching stuff on Netflix: a couple of documentaries, and <a href="http://www.amazon.com/gp/product/B0036TGSIK/?tag=allispar-20">The Easy A</a>, which turned out to be such a fantastic movie that I forced David to watch it with me again the next day.
+
+I also spent a day trying to get the used <a href="http://www.amazon.com/dp/product/B0002OKCXE/?tag=allispar-20">iGo Stowaway</a> bluetooth keyboard I just got to play nice with my LG Optimus V. I rooted the phone a couple weeks ago in anticipation of this, and installed <a href="http://romrepo.info/wiki/index.php?title=What_is_aospCMod">aospCMod</a>, since Android 2.2, which came factory installed, does not support bluetooth keyboards for some reason. Much to my dismay, while I was able to pair the keyboard with my phone (after a great deal of fiddling), most of the punctuation on the right side of the keyboard wouldn't work. A keyboard that cant type apostrophes isnt much use to me.
+
+So I switched to <a href="http://forum.androidcentral.com/optimus-v-rooting-roms-hacks/62730-zefies-cm7-optimus-v-current-03012011-a.html">Zefie's Cyanogenmod</a>, which has a few of its own input problems, but at least lets me use my new toy. I don't think it'll be a proper replacement for a laptop until a few major bugs are worked out--I keep slipping into capslock for no good reason, and some basic functions of the onscreen keyboard are borked--but I might be able to type out blog entries and such without lugging a laptop around.
+
+<img src="http://lh4.ggpht.com/-T3KPXG6FUek/Te2t527vugI/AAAAAAAAADo/Onr1q5tpNP0/h740/IMG_2591.JPG" />  
+Folded up, it's barely bigger than the phone.
+
+<img src="http://lh4.ggpht.com/-lS2vRtjZm10/Te2uETehtLI/AAAAAAAAADs/luvtTY4JjnQ/h740/IMG_2592.JPG" />  
+Presto! Full size keyboard!
+
+I hope to be back outside tomorrow; I'm stalled in the middle of digging up my flowerbeds, and I really want to get to putting flowers in them before the growing season is over.

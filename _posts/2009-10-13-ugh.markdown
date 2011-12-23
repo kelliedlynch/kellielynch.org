@@ -1,0 +1,8 @@
+---
+layout: post
+title: Ugh.
+date: 2009-10-13 13:11:30.000000000 -05:00
+tags:
+- blog
+---
+We have out-of-town guests, and everyone has the flu. Don't expect much to get accomplished this week.

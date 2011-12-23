@@ -1,0 +1,16 @@
+url: "http://kellielynch.org"
+pygments: true
+permalink: /:year/:month/:title/
+markdown: rdiscount
+
+exclude: ["Rakefile", "README.markdown"]
+
+paginate: 10
+
+sitename: "Kellie Lynch"
+subtitle: "Butterflies and Power Tools"
+
+author: "Kellie Lynch"
+email: "kelliedlynch@gmail.com"
+
+tag_dir: "tag"
