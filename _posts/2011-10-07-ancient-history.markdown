@@ -17,6 +17,6 @@ I guess it wasn't helping matters any that the office was entirely populated by 
 
 I stopped at the appointment desk on the way out because I'm long overdue for a physical. When the girl there pulled up my information, she blinked at me. "You're 30?" she asked, incredulous. "You don't look 30."
 
-I wasn't sure what to think. On the one hand, I'm happy that I apparently still look young. On the other hand, I'm old enough that a 22-year-old can be shocked at old I am. (Oh my god, 30? That's, like, ancient! Were people still alive back then?)
+I wasn't sure what to think. On the one hand, I'm happy that I apparently still look young. On the other hand, I'm old enough that a 22-year-old can be shocked at how old I am. (Oh my god, 30? That's, like, ancient! Were people still alive back then?)
 
 I never thought I'd be one of those people who stressed out about their age. But then again, I never thought I'd be this old, either.

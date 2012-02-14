@@ -1,6 +1,6 @@
 url: "http://kellielynch.org"
 pygments: true
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 markdown: rdiscount
 
 exclude: ["Rakefile", "README.markdown"]

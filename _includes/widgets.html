@@ -1,3 +1,64 @@
+<script type="text/javascript">
+function relative_time(time_value) {
+	var time_lt1min = 'less than 1 min ago';
+	var time_1min = '1 min ago';
+	var time_mins = '%1 mins ago';
+	var time_1hour = '1 hour ago';
+	var time_hours = '%1 hours ago';
+	var time_1day = '1 day ago';
+	var time_days = '%1 days ago';
+
+	var values = time_value.split(" ");
+	time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+	var parsed_date = Date.parse(time_value);
+	var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+	var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
+	delta = delta + (relative_to.getTimezoneOffset() * 60);
+
+	if (delta < 60) {
+		return time_lt1min;
+	} else if(delta < 120) {
+		return time_1min;
+	} else if(delta < (60*60)) {
+		return time_mins.replace('%1', (parseInt(delta / 60)).toString());
+	} else if(delta < (120*60)) {
+		return time_1hour;
+	} else if(delta < (24*60*60)) {
+		return time_hours.replace('%1', (parseInt(delta / 3600)).toString());
+	} else if(delta < (48*60*60)) {
+		return time_1day;
+	} else {
+		return time_days.replace('%1', (parseInt(delta / 86400)).toString());
+	}
+}
+
+function twitterCallback1(twitters) {
+	var statusHTML = [];
+	var statusHTMLI = [];
+	for (var i=0; i<twitters.length; i++){
+		var username = twitters[i].user.screen_name;
+
+		var FollowersCount = twitters[i].user.followers_count;
+		var FriendsCount = twitters[i].user.friends_count;
+		var ProfileImageUrl = twitters[i].user.profile_image_url;
+		var StatusesCount = twitters[i].user.statuses_count;
+
+		pic = twitters[i].user.profile_image_url;
+		var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+			return '<a href="'+url+'">'+url+'</a>';
+		}).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+			return  reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+		});
+		if (i==0){
+			statusHTMLI.push('<a href="http://www.twitter.com/'+username+'"><img src='+ProfileImageUrl+'><span id="twitter_widget_username">@'+username+'</span></a>');
+		}
+		statusHTML.push('<li><span>'+status+'</span><div class="timeago"><a href="http://twitter.com/'+username+'/status/'+twitters[i].id_str+'">'+relative_time(twitters[i].created_at)+'</a></div></li>');
+	}
+	document.getElementById('twitter_info_ws').innerHTML = statusHTMLI.join('');
+	document.getElementById('twitter_update_list_ws').innerHTML = statusHTML.join('');
+}
+</script>
+
 <div id="widgets-left-column">
 	<div class="widget" role="navigation">
         <h1 class="widget-heading">Pages</h1>
@@ -20,6 +81,17 @@
         	</ul>
 		</div>
     </div>
+
+	<div class="widget">
+		<h1 class="widget-heading">Stuff I Sell</h1>
+			<div>
+				<script type='text/javascript' src='http://www.etsy.com/assets/js/etsy_mini_shop.js'></script>
+				<script type='text/javascript'>
+				new Etsy.Mini(5688068,'thumbnail',1,3,1,'http://www.etsy.com');</script>
+			</div>
+	</div>
+
+
 	<div class="widget">
 		<div id="recentcomments" class="dsq-widget"><h2 class="dsq-widget-title">Recent Comments</h2></div>
 		<div>
@@ -45,7 +117,25 @@
 		<div class="menu">
 			<ul>
 		    	<li><a href="http://davidlynch.org"><img src="/theme/images/icons2/007.png" class="menu-icon">My Husband</a></li>
+				<li><a href="http://womenfighters.tumblr.com/"><img src="/theme/images/icons2/085.png" class="menu-icon">Women Fighters in Reasonable Armor</a></li>
+				<li><a href="http://thesteampunkhome.blogspot.com/"><img src="/theme/images/icons2/041.png" class="menu-icon">The Steampunk Home</a></li>
 			</ul>
 		</div>
 	</div>
+
+
+
+	<div class="widget">
+		<h1 class="widget-heading">Recent Tweets</h1>
+			<div id="twitter_div_ws">
+				<div id="twitter_info_ws"></div>
+				<ul id="twitter_update_list_ws">
+					<li>loading…</li>
+				</ul>
+			</div>
+			<script src="https://api.twitter.com/1/statuses/user_timeline/kelliedlynch.json?count=5&callback=twitterCallback1&include_rts=1" type="text/javascript"></script>
+	</div>
+	
+
+	
 </div>

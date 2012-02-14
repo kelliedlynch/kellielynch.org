@@ -1,0 +1,21 @@
+<meta http-equiv="X-XRDS-Location" content="http://openid.davidlynch.org/xrds/kellie" />
+<?xml version="1.0" encoding="UTF-8"?>
+<xrds:XRDS xmlns="xri://$xrd*($v*2.0)" xmlns:xrds="xri://$xrds" xmlns:simple="http://xrds-simple.net/core/1.0">
+    <XRD version="2.0">
+        <Type>xri://$xrds*simple</Type>
+                <Service priority="10">
+            <Type>http://specs.openid.net/auth/2.0/signon</Type>
+            <URI>http://openid.davidlynch.org/</URI>
+                        <LocalID>http://www.kellielynch.org/</LocalID>            
+            
+        </Service>
+        <Service priority="20" xmlns:openid="http://openid.net/xmlns/1.0">
+            <Type>http://openid.net/signon/1.0</Type>
+            <URI>http://openid.davidlynch.org/</URI>
+                        <openid:Delegate>http://www.kellielynch.org/</openid:Delegate>
+            
+        </Service>
+        
+        
+    </XRD>
+</xrds:XRDS>

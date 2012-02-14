@@ -4,7 +4,7 @@ title: Margaret Cho on Polyamory
 date: 2011-07-15 10:24:10.000000000 -05:00
 tags:
 - blog
-published: false
+
 ---
 This is really refreshing. I didn't know Margaret Cho was poly (or that she was married, honestly), but this is a great way to find out. She talks about it very openly and comfortably, and just seems to have a very reasonable, level-headed approach in general.
 

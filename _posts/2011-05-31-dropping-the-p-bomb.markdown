@@ -4,7 +4,7 @@ title: Dropping the P-bomb
 date: 2011-05-31 12:06:49.000000000 -05:00
 tags:
 - polyamory
-published: false
+
 ---
 One of the reasons I'm blogging under a pseudonym is that David and I practice polyamory; we openly date other people. Or semi-openly, anyway. We're not exactly "out" to our families, but it wouldn't be the end of the world if they found out. My main reason for wanting anonymity is that I don't want to jeopardize my husband's career if he were to need to change jobs.
 

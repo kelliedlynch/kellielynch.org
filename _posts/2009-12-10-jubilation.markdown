@@ -8,7 +8,7 @@ tags:
 ---
 Hooray, I made my first sale! It was a skein of this pale yellow silk-and-cashmere blend:
 
-<img src="/uploads/2009/12/y005_2-300x225.jpg" />
+<img src="/uploads/2009/12/y005_2.jpg" />
 
 This yarn was an absolute pleasure to work with, which is a good thing, since I need to unravel another skein of it now.
 

@@ -23,6 +23,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#28425e; }
 	color: #ffffff;
 }
 .menu li a { color: #725559; }
+#twitter_info_ws {
+	background: #FBE9F7;
+	border: 2px solid #FBE9F7;	
+}
+#twitter_div_ws {  }
+#twitter_update_list_ws li:last-child { border: none; }
+#twitter_update_list_ws li {
+	border-bottom: 1px solid #EB6772;
+}
 .post { border-bottom-color: #725559; }
 /*.entry-meta a { color:#637893; }*/
 .post footer { border-top-color: #ebeef1; }
@@ -52,6 +61,12 @@ ul, ol {
 dl dd {
 	padding-left:2em;
 	padding-bottom:1ex;
+}
+q {
+	display: block;
+	background: #ebebeb;
+	font-style: italic;
+	margin: .2em 5em;
 }
 
 /* Text meant only for screen readers */
@@ -139,27 +154,62 @@ nav {
 .widget-heading, .dsq-widget-title {
 	font-size: 1.2em;
 	padding: 2px 5px;
-	margin-bottom: .2em;
+	margin-bottom: 5px;
 }
 li.dsq-widget-item {
 	margin: 5px 3px !important
 }
 .menu ul {
-	padding: 0;
+	padding-left: 14px;
 	list-style: none;
+}
+.menu li {
+	margin-left: 10px;
+	text-indent: -14px;
 }
 .menu li a {
 	text-decoration:none;
-	margin-left: 10px;
 }
 
 .menu-icon {
 	margin: 1px 3px 0px 0px;
 }
+#twitter_div_ws {
+	margin: 0px 5px;
+}
+#twitter_info_ws {
+	height: 20px;
+}
+#twitter_widget_username {
+	font-weight: bold;
+	position: relative;
+	bottom: 5px;
+}
+#twitter_info_ws img {
+	width: 20px;
+	height: 20px;
+}
+#twitter_update_list_ws {
+	list-style: none;
+	padding-left: 5px;
+	margin-right: 5px;
+}
+#twitter_update_list_ws li {
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+}
+.timeago {
+	font-size: 8px;
+}
 
+
+
+
+/* Main Content Area */
 #main {
 	padding: 0 20px;
 	display: table-cell;
+	width:100%;
 }
 
 /* Entry! */
@@ -169,6 +219,10 @@ li.dsq-widget-item {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	display: block;
+}
+.post img {
+	max-width: 100%;
+	height: auto;
 }
 
 .entry-meta {
@@ -187,6 +241,18 @@ li.dsq-widget-item {
 }
 .entry-content li {
 	margin-bottom:0.5ex;
+}
+.entry-content h1 {
+	text-align: center;
+	font-size: 1.4em;
+}
+.entry-content h2 {
+	text-align: center;
+	font-size: 1.3em;
+}
+.entry-content h3 {
+	text-align: center;
+	font-size: 1em;
 }
 
 .post footer {

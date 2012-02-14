@@ -4,7 +4,7 @@ title: An Old Love
 date: 2011-08-18 21:01:21.000000000 -05:00
 tags:
 - blog
-published: false
+
 ---
 I'm trying to get back into the theatre. I had my first audition in years today.
 
