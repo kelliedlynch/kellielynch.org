@@ -4,7 +4,7 @@ title: "Planning the Craft Center"
 date: 2012-01-29 21:53:58 -0600
 tags:
 - diy
-- home improvement
+- home-improvement
 - blog
 ---
 

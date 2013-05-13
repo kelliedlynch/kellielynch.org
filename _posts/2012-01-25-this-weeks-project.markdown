@@ -6,7 +6,7 @@ tags:
 - blog
 - crafts
 - diy
-- home improvement
+- home-improvement
 ---
 
 I couldn't decide what to do for my next craft project, but then I discovered a wonderful store called <a href="http://www.gatewaycatalog.com/">Gateway Electronics</a>. I bought a bunch of interesting-looking electronic parts that were just <em>begging</em> to become part of a steampunk ray gun.
