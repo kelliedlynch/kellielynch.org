@@ -1,6 +1,7 @@
 * {
 	margin:0;
 	padding:0;
+	box-sizing: border-box;
 }
 body { background: #FBE9F7; }
 a { color: #725559; }
@@ -100,6 +101,7 @@ nav {
 }
 
 #branding {
+	width: 340px;
 	margin-bottom: 5px;
 	border-bottom-width: 12px;
 	border-bottom-style: solid;
@@ -308,4 +310,32 @@ img.alignleft {
 }
 img.alignright {
 	margin-left: 1em;
+}
+
+
+/* Adjustments for phones */
+@media only screen and (max-width: 480px) {
+	#page {
+		margin-top: 100px;
+	}
+	#main, #sidebar {
+		display: block;
+	}
+	#main {
+		padding-top: 10px;
+	}
+	#branding {
+		position: absolute;
+		top:0;
+		left:30px;
+		right:30px;
+		height:100px;
+		width:auto;
+		background: #725559;
+		border-bottom: 10px solid #EB6772;
+	}
+	#widgets,
+	#branding > img {
+		display: none;
+	}
 }
